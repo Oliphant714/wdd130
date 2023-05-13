@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(255, 145, 163);
+    text-align: center;
+    margin: 0 auto
+    
+}    
+h1:hover {
+    color: black;}
+img {
+        width:300px
+}
+.white-text {
+    color: white
+}
+.black-text {
+    color: black
+}
+h2 {
+    font-size:smaller;
+    padding :0%, 35%, 0%, 35%
+    
+}
+h3 {
+    font-size:larger
+}
+h4 {
+    padding :0%
+}
+h5 {
+
+}
