@@ -1,0 +1,22 @@
+#hero {
+    width: 100%;
+    padding:0%;
+    border:0px;
+    margin:0%;
+}
+.small-circle {
+    align-items: 0 auto;
+    border-radius: 360px;
+    width: 200px;
+    border: 15px solid rgb(75, 75, 75);
+    margin: 2%;
+}
+.lower-pics {
+    background-color: gray;
+    margin: 0px;
+    text-align: center;
+}
+body {
+    margin: 0;
+    text-size-adjust: 0px;
+}

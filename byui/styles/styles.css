@@ -3,7 +3,15 @@ nav, footer {
     color: white;
     padding: 10px 30px 10px 20px;
     margin: 5%
-}    
+}   
+nav {
+    background-color: steelblue;
+    padding: 25px;
+}
+a {
+    color: white;
+    padding: 25px;
+} 
 a:hover {
     background-color: white;
     color: steelblue;}
@@ -13,5 +21,19 @@ a:active {
 a:visited {
     color:rgb(105, 35, 172)}
 img {
-        width:300px
+        width:300px;
+        border: 4px solid steelblue;
+}
+footer {
+    background-color: steelblue;
+    color: white;
+}
+footer p {
+    padding: 25px;
+}
+h1 {
+    margin: 50px 0;
+}
+body {
+    margin: 0
 }
