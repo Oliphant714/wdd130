@@ -1,0 +1,27 @@
+.challenge {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: darkgray;
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    grid-row: 1/3;
+    grid-column: 1/2;
+    z-index: 0;
+}
+h1 {
+    width: 100%;
+    grid-column: 1/3;
+    z-index: 1;
+    grid-row: 1/2;
+    font-size: 900%;
+}
+h2 {
+    width: 100%;
+    color: darkred;
+    font-size: 400%;
+    letter-spacing: 12px;
+}
