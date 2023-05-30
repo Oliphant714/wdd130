@@ -4,21 +4,37 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+
+/*Nav*/
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 nav a {
     text-align: center;
     color: aqua;
     text-decoration: none;
     padding: 35px;
 }
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
+nav a:hover {
+    background-color: #0c66eb;
+    color: #0cf5c4;
 }
+
+
 .button-box {
     text-align: center;
 }
+
+/*Main*/
 main section {
     text-align: center;
 }
+#home-grid {
+    display: grid;
+    grid-template-columns:repeat(1fr, 10)
+}
+
 #background {
     height: 725px;
 }
@@ -30,11 +46,11 @@ body {
 }
 header {
     background-color: #0cf5c4;
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
 }
-nav a:hover {
-    background-color: #0c66eb;
-    color: #0cf5c4;
-}
+
 .book, .join {
     background-color: #0ca8f5;
     color: #0cf5c4;
@@ -61,6 +77,8 @@ nav a:hover {
     font-size: .8em;
     padding-bottom: 15px;
 }
+
+/*Footer*/
 footer {
     background-color: #0cf5c4;
     color: #555;
@@ -80,8 +98,10 @@ footer a:hover {
 footer p a:hover {
     text-decoration: underline;
 }
+
+
 .home-title {
-    color:green;
+    color: #0cf5c4;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2em;
     margin-top: 10px;
@@ -90,8 +110,34 @@ h2 {
     margin:0;
 }
 h4 {
-    color: cornflowerblue;
+    color: lightgreen;
 }
+
+/*Hero Stuff*/
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px
+}
+#hero-img {
+    width: 100%;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column:2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    text-shadow: black;
+}
+
+/*Images*/
 .logo {
     width: 80px;
 }
@@ -99,15 +145,15 @@ h4 {
     width: 80px;
     padding-top: 10px;
 }
-#hero-img {
-    width: 100%
-}
 .mountains {
     margin: 100px 0;
 }
 #logo_link {
-    padding-top: 5px
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
+
 footer .social img {
     padding-top: 15px;
 }
@@ -116,6 +162,9 @@ footer .social img {
 }
 .card-img {
     border: 10px solid #0c66eb
+}
+.card-img, .mountains {
+    width:100%
 }
 main section img {
     box-sizing: border-box;
