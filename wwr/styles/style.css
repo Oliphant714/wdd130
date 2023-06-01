@@ -30,9 +30,9 @@ nav a:hover {
 main section {
     text-align: center;
 }
-#home-grid {
+.home-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(10, 1fr);
 }
 
 body {
@@ -140,7 +140,7 @@ h4 {
     grid-column:2/3;
     grid-row: 1/2;
     margin-top: 100px;
-    text-shadow:black;
+    text-shadow: black;
 }
 
 /*Images*/
@@ -165,7 +165,7 @@ h4 {
 footer .social img {
     padding-top: 15px;
 }
-.rivers-card, .camping-card, .rapids-card {
+.rivers-card, .camping-card, .kung-fu-card {
     margin: 200px 0;
 }
 .rivers-card {
@@ -179,6 +179,7 @@ footer .social img {
 .kung-fu-card {
     grid-column: 8/10;
     grid-row: 2/3;
+    
 }
 .card-img {
     border: 10px solid #0c66eb;
