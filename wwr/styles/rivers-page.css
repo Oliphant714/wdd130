@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/*Nav*/
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: #0c66eb;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: aqua;
+    color: #0cf5c4;
+}
+
+/*Main*/
+main section {
+    text-align: center;
+}
+body {
+    background-color: #01cedd;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+}
+header {
+    background-color: #0cf5c4;
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.left-text {
+    grid-column: 2/5;
+}
+.left-text, .right-text, h2 {
+    grid-row: 1/3;
+}
+.left-text, .right-text, h4 {
+    grid-row: 4/7;
+}
+.right-text {
+    grid-column: 7/10;
+}
+
+/*Footer*/
+footer {
+    background-color: #0cf5c4;
+    color: #555;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: #555;
+    text-decoration: none;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer a:hover {
+    color: #eee;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+
+/*Images*/
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
