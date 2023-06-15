@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+.card {
+    max-width: 250px;
+    margin: 0 auto; /*centers the image*/
+    background-color: white;
+    padding: 0px;
+    border: 0px;
+}
+.headerimage {
+    width: 100%;
+}
+.awesomearticle {
+    padding: 10%;
+    text-align: center;
+    color: rgb(105, 105, 105);
+}
+.bigwords, .tinywords {
+    text-align: center;
+}
+.tinywords {
+    color: steelblue;
+    margin: 0px;
+    border: 0px;
+    padding-top: 10%;
+}
+.bigwords {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.words {
+    text-align: center;
+    size: 25px;
+    padding-top: 0%;
+}
+.numbers {
+    text-align: center;
+    size: 100%;
+    padding-bottom: 00%;
+}
+.bottom-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr, 1fr;
+    background-color: rgb(34, 88, 133);
+    color: white;
+    max-width: 250px;
+    margin: 0 auto;
+    border: 0px;
+    
+}
