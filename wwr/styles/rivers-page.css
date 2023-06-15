@@ -5,6 +5,9 @@
     margin: 0 auto;
 }
 
+text {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 /*Nav*/
 nav {
     display: flex;
@@ -43,6 +46,15 @@ header {
 }
 .left-text {
     grid-column: 2/5;
+}
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3em;
+    background-color:#0c66eb;
+    color:#0cf5c4;
+    box-shadow: 5px 5px 10px #6f7364;
+    
 }
 h2 {
     grid-row: 2/4;
