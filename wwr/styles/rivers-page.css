@@ -50,13 +50,15 @@ h2 {
     padding-top: 50px;
     font-size: 2em;
     background-color:#0c66eb;
-    color:#0cf5c4
+    color:#0cf5c4;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 h4 {
     background-color: #0cf5c4;
     color:#0c66eb;
     grid-row: 4/7;
     font-size: 1em;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .right-text {
     grid-column: 7/10;
@@ -126,7 +128,9 @@ img {
     grid-row: 2/7;
     width: 400px;
 }
-
+.social-media {
+    box-shadow: none;
+}
 main section img {
     box-sizing: border-box;
 }
@@ -139,7 +143,7 @@ main section img {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.msg h2 {
+.msg h2, h3 {
     color:cornflowerblue;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
