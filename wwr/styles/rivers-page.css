@@ -113,6 +113,7 @@ img {
 }
 .logo {
     width: 80px;
+    box-shadow: none;
 }
 .icon {
     width: 80px;
