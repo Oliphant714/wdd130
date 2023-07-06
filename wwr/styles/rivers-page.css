@@ -40,7 +40,7 @@ header {
     grid-template-columns: 150px auto;
     align-items: center;
 }
-.grid {
+.grid, .cabin-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
@@ -139,7 +139,8 @@ img {
 .cabins {
     height: auto;
     grid-row: 2/7;
-    width: 400px;
+    width: 800px;
+    display: block;
 }
 .social-media {
     box-shadow: none;
@@ -155,6 +156,7 @@ main section img {
     grid-column: 4/7;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+    width: 100%;
 }
 .msg h2, h3 {
     color:cornflowerblue;
@@ -164,4 +166,37 @@ main section img {
     color:cornflowerblue;
     font-size: .8em;
     padding-bottom: 15px;
+}
+ /*W3 Challenge - Fade in Overlay */
+.cabin-grid {
+    position: relative;
+    width: 50%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 600px;
+    width: 800px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: cornflowerblue;
+}
+  
+.cabin-grid:hover .overlay {
+    opacity: 1;
+}
+  
+.text {
+    color: #0cf5c4;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
